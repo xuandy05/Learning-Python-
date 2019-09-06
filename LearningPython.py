@@ -406,8 +406,6 @@ with open('MachineLearning.txt') as doc:
       del my_dict[most_word]
       most_words[most_word] = number_times
     print("The top 10 most used words in paragraph", str(i) + ':', most_words)
-Abstraction: showing just enough info to user that allows them to interact with object
-Encapsulation: bundling all related smaller components together into one larger object
 
 class Car:
   def __init__(self):
